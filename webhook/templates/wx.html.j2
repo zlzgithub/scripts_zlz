@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Stat: {{ data.status }}
+Name: {{ data.groupLabels.alertname }}
+----------------------------------------------------------------
+Details:
+{% for alert in data.alerts %}
+startsAt: {{ alert.startsAt }}
+status: {{ alert.status }}
+description: {{ alert.annotations.description }}
+summary: {{ alert.annotations.summary }}
+----------------------------------------------------------------
+{% endfor %}
+

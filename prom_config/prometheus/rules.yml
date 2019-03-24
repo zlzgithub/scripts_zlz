@@ -1,0 +1,11 @@
+groups:
+  - name: test-rules
+    rules:
+      - alert: hostCpuUsageAlert
+        expr: sum(avg without (cpu)(irate(node_cpu_seconds_total{mode!='idle'}[5m]))) by (instance) * 100 > 20
+        for: 1s
+        labels:
+          severity: page
+        annotations:
+          summary: "Instance {{ $labels.instance }} CPU usgae high"
+          description: "{{ $labels.instance }} CPU usage above 20% (current value: {{ $value }})"
