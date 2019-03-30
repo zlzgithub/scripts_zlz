@@ -1,0 +1,152 @@
+{
+    "data": [
+        {
+            "{#SERVICE}": "central_mysql",
+            "{#TCP_PORT}": "28001"
+        },
+        {
+            "{#SERVICE}": "japp_xps_foundation_data",
+            "{#TCP_PORT}": "11200"
+        },
+        {
+            "{#SERVICE}": "japp_xps_inventory_management",
+            "{#TCP_PORT}": "11210"
+        },
+        {
+            "{#SERVICE}": "jweb_wms_notify_gateway",
+            "{#TCP_PORT}": "58003"
+        },
+        {
+            "{#SERVICE}": "jweb_tms_notify_gateway",
+            "{#TCP_PORT}": "58006"
+        },
+        {
+            "{#SERVICE}": "jweb_xps_warehouse_management",
+            "{#TCP_PORT}": "11020"
+        },
+        {
+            "{#SERVICE}": "jweb_xps_transportation_management",
+            "{#TCP_PORT}": "11030"
+        },
+        {
+            "{#SERVICE}": "jweb_xps_coupon_management",
+            "{#TCP_PORT}": "11040"
+        },
+        {
+            "{#SERVICE}": "jweb_xps_prepaid_management",
+            "{#TCP_PORT}": "11050"
+        },
+        {
+            "{#SERVICE}": "jweb_xps_gross_profit_management",
+            "{#TCP_PORT}": "11060"
+        },
+        {
+            "{#SERVICE}": "jweb_eas_notify_gateway",
+            "{#TCP_PORT}": "58007"
+        },
+        {
+            "{#SERVICE}": "jweb_xps_payment_order_management",
+            "{#TCP_PORT}": "11090"
+        },
+        {
+            "{#SERVICE}": "jweb_xps_collection_management",
+            "{#TCP_PORT}": "11100"
+        },
+        {
+            "{#SERVICE}": "jweb_xps_foundation_management",
+            "{#TCP_PORT}": "11120"
+        },
+        {
+            "{#SERVICE}": "jweb_xps_warning_center",
+            "{#TCP_PORT}": "11130"
+        },
+        {
+            "{#SERVICE}": "jweb_xps_unit_price_discount",
+            "{#TCP_PORT}": "11140"
+        },
+        {
+            "{#SERVICE}": "jweb_xps_purchase_plan_management",
+            "{#TCP_PORT}": "11150"
+        },
+        {
+            "{#SERVICE}": "jweb_xps_login_management",
+            "{#TCP_PORT}": "11160"
+        },
+        {
+            "{#SERVICE}": "jweb_xps_account_management",
+            "{#TCP_PORT}": "11170"
+        },
+        {
+            "{#SERVICE}": "philips_xiaojiadian_payment_management",
+            "{#TCP_PORT}": "12200"
+        },
+        {
+            "{#SERVICE}": "philips_xiaojiadian_purchase_order",
+            "{#TCP_PORT}": "12210"
+        },
+        {
+            "{#SERVICE}": "philips_xiaojiadian_sales_order",
+            "{#TCP_PORT}": "12220"
+        },
+        {
+            "{#SERVICE}": "philips_xiaojiadian_distributor_portal",
+            "{#TCP_PORT}": "12000"
+        },
+        {
+            "{#SERVICE}": "philips_xiaojiadian_warehouse_notify_gateway",
+            "{#TCP_PORT}": "12010"
+        },
+        {
+            "{#SERVICE}": "philips_xiaojiadian_yhportal",
+            "{#TCP_PORT}": "12020"
+        },
+        {
+            "{#SERVICE}": "philips_pifa_payment_management",
+            "{#TCP_PORT}": "14200"
+        },
+        {
+            "{#SERVICE}": "philips_pifa_purchase_order",
+            "{#TCP_PORT}": "14210"
+        },
+        {
+            "{#SERVICE}": "philips_pifa_sales_order",
+            "{#TCP_PORT}": "14220"
+        },
+        {
+            "{#SERVICE}": "philips_pifa_distributor_portal",
+            "{#TCP_PORT}": "14000"
+        },
+        {
+            "{#SERVICE}": "philips_pifa_warehouse_notify_gateway",
+            "{#TCP_PORT}": "14010"
+        },
+        {
+            "{#SERVICE}": "philips_pifa_yhportal",
+            "{#TCP_PORT}": "14020"
+        },
+        {
+            "{#SERVICE}": "philips_tmall_payment_management",
+            "{#TCP_PORT}": "15200"
+        },
+        {
+            "{#SERVICE}": "philips_tmall_purchase_order",
+            "{#TCP_PORT}": "15210"
+        },
+        {
+            "{#SERVICE}": "philips_tmall_sales_order",
+            "{#TCP_PORT}": "15220"
+        },
+        {
+            "{#SERVICE}": "philips_tmall_distributor_portal",
+            "{#TCP_PORT}": "15000"
+        },
+        {
+            "{#SERVICE}": "philips_tmall_warehouse_notify_gateway",
+            "{#TCP_PORT}": "15010"
+        },
+        {
+            "{#SERVICE}": "philips_tmall_yhportal",
+            "{#TCP_PORT}": "15020"
+        }
+    ]
+}
